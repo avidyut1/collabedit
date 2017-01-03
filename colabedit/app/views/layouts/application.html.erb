@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colabedit</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <script src='http://local.dev:7000/socket.io/socket.io.js'></script>
+    <script>
+      socket = io.connect('http://local.dev:7000/',{'reconnection' : true});
+    </script>
+  </head>
+
+  <body ng-app="colabedit">
+    <%= yield %>
+  </body>
+</html>
