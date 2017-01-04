@@ -13,10 +13,9 @@ app.controller('PadCtrl', ['$scope', '$http', '$state', 'socket', function ($sco
             msg_server = msg.data;
         });
         $scope.$watch('data', function (newvalue, oldvalue){
-            if (newvalue === msg_server) {
-                return;
+            if (newvalue !== msg_server) {
+                socket.emit('data', {'data': $scope.data, 'hash_id': hash_id});
             }
-            socket.emit('data', {'data': $scope.data, 'hash_id': hash_id});
         });
     });
 }]);
