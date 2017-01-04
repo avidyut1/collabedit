@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c93a5ca-34ce-4bc1-a91c-58bad5cedd6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js" afterPath="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realtime/server.js" afterPath="$PROJECT_DIR$/realtime/server.js" />
-    </list>
+    <list default="true" id="2c93a5ca-34ce-4bc1-a91c-58bad5cedd6e" name="Default" comment="" />
     <ignored path="collabedit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -677,12 +673,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483459365929</updated>
       <workItem from="1483459367172" duration="6247000" />
-      <workItem from="1483501267673" duration="3343000" />
+      <workItem from="1483501267673" duration="3463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9590000" />
+    <option name="totallyTimeSpent" value="9710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
