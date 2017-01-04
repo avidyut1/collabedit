@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2c93a5ca-34ce-4bc1-a91c-58bad5cedd6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/Gemfile" afterPath="$PROJECT_DIR$/colabedit/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/Gemfile.lock" afterPath="$PROJECT_DIR$/colabedit/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js" afterPath="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/app/assets/javascripts/templates/pad.html" afterPath="$PROJECT_DIR$/colabedit/app/assets/javascripts/templates/pad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb" afterPath="$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/config/database.yml" afterPath="$PROJECT_DIR$/colabedit/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colabedit/db/schema.rb" afterPath="$PROJECT_DIR$/colabedit/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realtime/package.json" afterPath="$PROJECT_DIR$/realtime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realtime/server.js" afterPath="$PROJECT_DIR$/realtime/server.js" />
     </list>
     <ignored path="collabedit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +31,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/realtime/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="padCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colabedit/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colabedit/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="padCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/homeCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -82,8 +120,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colabedit/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -92,28 +130,8 @@
       <file leaf-file-name="pad_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/colabedit/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -143,14 +161,16 @@
         <option value="$PROJECT_DIR$/colabedit/config/routes.rb" />
         <option value="$PROJECT_DIR$/colabedit/db/migrate/20170103171440_rename_column_hash.rb" />
         <option value="$PROJECT_DIR$/colabedit/app/models/pad.rb" />
-        <option value="$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb" />
         <option value="$PROJECT_DIR$/colabedit/app/assets/javascripts/app.js" />
         <option value="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/homeCtrl.js" />
         <option value="$PROJECT_DIR$/colabedit/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/colabedit/app/assets/javascripts/factory/socket.js" />
         <option value="$PROJECT_DIR$/colabedit/app/assets/javascripts/templates/pad.html" />
-        <option value="$PROJECT_DIR$/realtime/server.js" />
+        <option value="$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb" />
         <option value="$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js" />
+        <option value="$PROJECT_DIR$/colabedit/Gemfile" />
+        <option value="$PROJECT_DIR$/colabedit/config/database.yml" />
+        <option value="$PROJECT_DIR$/realtime/server.js" />
       </list>
     </option>
   </component>
@@ -549,7 +569,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/config/routes.rb&#10;applic&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/app/assets/javascripts/application.js&#10;gemfi&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="homeC&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/app/assets/javascripts/controllers/homeCtrl.js&#10;pad_con&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/app/controllers/pad_controller.rb&#10;gemf&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/Gemfile&#10;datab&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/config/database.yml&#10;database.ym&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/config/database.yml&#10;route&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/config/routes.rb&#10;applic&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/app/assets/javascripts/application.js&#10;gemfi&#9;FILE&#9;file:///Users/asheshvidyut/Code/collabedit/colabedit/Gemfile" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.0.0/bin/node" />
   </component>
@@ -685,12 +705,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483459365929</updated>
       <workItem from="1483459367172" duration="6247000" />
-      <workItem from="1483501267673" duration="808000" />
+      <workItem from="1483501267673" duration="2650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7055000" />
+    <option name="totallyTimeSpent" value="8897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -815,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -834,14 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/db/migrate/20170103171440_rename_column_hash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -869,39 +873,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb">
+    <entry file="file://$PROJECT_DIR$/colabedit/db/migrate/20170103171440_rename_column_hash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/homeCtrl.js">
+    <entry file="file://$PROJECT_DIR$/colabedit/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/factory/socket.js">
+    <entry file="file://$PROJECT_DIR$/colabedit/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,21 +913,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/realtime/server.js">
+    <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/factory/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colabedit/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colabedit/app/controllers/pad_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/padCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colabedit/app/assets/javascripts/controllers/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realtime/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
